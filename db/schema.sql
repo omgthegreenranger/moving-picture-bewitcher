@@ -7,15 +7,15 @@ CREATE DATABASE movies_db;
 USE movies_db;
 
 CREATE TABLE movies(
-    id INT NOT NULL PRIMARY KEY AUTOINCREMENT,
-    movie_name VARCHAR(100) NOT NULL
+    id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    movie_name VARCHAR(100)
 );
 
 CREATE TABLE reviews (
-    id INT NOT NULL PRIMARY KEY AUTOINCREMENT,
-    review TEXT;
-    movie_id INT;
+    id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    review TEXT,
+    movie_id INT,
     FOREIGN KEY (movie_id)
-    REFERENCES (movies.id)
+    REFERENCES movies(id)
     ON DELETE SET NULL
 );

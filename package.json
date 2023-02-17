@@ -1,0 +1,24 @@
+{
+  "name": "moving-picture-bewitcher",
+  "version": "1.0.0",
+  "description": "## Task",
+  "main": "/",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omgthegreenranger/moving-picture-bewitcher.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/omgthegreenranger/moving-picture-bewitcher/issues"
+  },
+  "homepage": "https://github.com/omgthegreenranger/moving-picture-bewitcher#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql2": "^3.1.2"
+  }
+}
